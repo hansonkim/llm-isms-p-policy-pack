@@ -1,9 +1,9 @@
 ---
 owner: CISO/CPO
 review_cycle: quarterly
-last_reviewed: 2026-04-29
+last_reviewed: 2026-04-30
 status: draft
-source_reference: ISMS-P 인증기준 안내서(2023.11.23)
+source_reference: ISMS-P 인증기준 안내서(2023.11.23), ISMS-P 인증제도 안내서(2024.07), 정보보호 및 개인정보보호 관리체계 인증 등에 관한 고시(2024.7.24), ISMS-P 인증제 실효성 강화방안(2026.4.10)
 ---
 
 # 법령/고시/안내서 업데이트 로그
@@ -18,4 +18,13 @@ source_reference: ISMS-P 인증기준 안내서(2023.11.23)
 
 | 일자 | 출처 | 변경 내용 | 영향 분석 | 반영 문서 | 담당자 |
 |---|---|---|---|---|---|
-|  |  |  |  |  |  |
+| 2023-11-23 | KISA ISMS-P 인증기준 안내서(2023.11.23) | 3개 영역, 101개 인증기준 기준 반영 | LLM 정책팩의 기본 통제 매핑 기준으로 유지 | 전체 정책팩, `isms-p-evidence-map.md` | CISO/CPO |
+| 2024-07-24 | KISA ISMS-P 인증제도 안내서(2024.07), 고시 일부개정 | 관련 법령 개정, 신규 심사기관, 인증 유형 등 제도 변경사항 반영 필요 | 인증 유형별 적용 기준을 고정하지 말고 일반/특례/간편 기준 구분 필요 | `llm-risk-decision-matrix.md`, `isms-p-evidence-map.md` | CISO/CPO |
+| 2024-07-24 | KISA ISMS-P 간편인증 세부점검항목, 고시 별표 7/7의2/7의3 | 간편인증 세부점검항목 및 인증의 특례 기준 공개 | 적용 대상이면 별표 7의2 또는 별표 7의3 적용 여부 확인 필요 | `llm-risk-decision-matrix.md`, `isms-p-evidence-map.md` | CISO/CPO |
+| 2026-04-10 | 개인정보보호위원회/과학기술정보통신부 ISMS-P 인증제 실효성 강화방안 | 인증 대상/기준, 심사방식, 사후관리, 심사품질확보 전면 개편 방향 발표 | 강화/표준/간편 차등화, 현장실증/기술심사, 상시점검, 인증취소 기준 강화 예정사항을 변경관리 대상으로 추적 | `llm-risk-decision-matrix.md`, `skill-external-llm-vendor-review.md`, `isms-p-evidence-map.md` | CISO/CPO |
+
+## 후속 확인 항목
+
+- 2026년 하반기 사후관리 강화 관련 고시, 지침, 세부점검항목 개정 여부를 확인한다.
+- 2027년 시행 예정인 의무대상 확대, 인증체계 차등화, 강화 인증기준의 확정 고시를 확인한다.
+- AI, LLM, 클라우드, RAG, 벡터 DB, 프롬프트/응답 로그에 특화된 심사 항목이 신설되는지 확인한다.

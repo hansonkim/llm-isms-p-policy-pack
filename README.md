@@ -51,11 +51,11 @@ LLM 에이전트의 판정은 법률 자문, 인증 심사 결과, 내부 승인
 
 이 저장소의 public GitHub URL과 raw URL을 정책 원본으로 사용합니다.
 
-- 저장소: `https://github.com/hansonkim/llm-isms-p-policy-pack`
-- 공통 지침: `https://raw.githubusercontent.com/hansonkim/llm-isms-p-policy-pack/main/AGENTS.md`
-- Claude Code: `https://raw.githubusercontent.com/hansonkim/llm-isms-p-policy-pack/main/CLAUDE.md`
-- Codex: `https://raw.githubusercontent.com/hansonkim/llm-isms-p-policy-pack/main/AGENTS.md`
-- Gemini CLI: `https://raw.githubusercontent.com/hansonkim/llm-isms-p-policy-pack/main/GEMINI.md`
+- 저장소: `https://github.com/loplat/llm-isms-p-policy-pack`
+- 공통 지침: `https://raw.githubusercontent.com/loplat/llm-isms-p-policy-pack/main/AGENTS.md`
+- Claude Code: `https://raw.githubusercontent.com/loplat/llm-isms-p-policy-pack/main/CLAUDE.md`
+- Codex: `https://raw.githubusercontent.com/loplat/llm-isms-p-policy-pack/main/AGENTS.md`
+- Gemini CLI: `https://raw.githubusercontent.com/loplat/llm-isms-p-policy-pack/main/GEMINI.md`
 
 2026-04-30 기준 Claude Code, Codex, Gemini CLI는 영구 지침을 로컬 파일에서 자동 로드합니다. URL 자체를 원격 import로 매번 자동 로드하는 방식이 아니라, 위 URL을 기준으로 각 도구의 로컬 지침 파일을 설치하거나 갱신하십시오. 자세한 설치 명령은 `INSTALL.md`를 참고하십시오.
 

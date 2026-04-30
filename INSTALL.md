@@ -4,18 +4,18 @@
 
 정책 원본 저장소:
 
-- `https://github.com/hansonkim/llm-isms-p-policy-pack`
+- `https://github.com/loplat/llm-isms-p-policy-pack`
 
 주요 raw URL:
 
-- 공통/Codex: `https://raw.githubusercontent.com/hansonkim/llm-isms-p-policy-pack/main/AGENTS.md`
-- Claude Code: `https://raw.githubusercontent.com/hansonkim/llm-isms-p-policy-pack/main/CLAUDE.md`
-- Gemini CLI: `https://raw.githubusercontent.com/hansonkim/llm-isms-p-policy-pack/main/GEMINI.md`
+- 공통/Codex: `https://raw.githubusercontent.com/loplat/llm-isms-p-policy-pack/main/AGENTS.md`
+- Claude Code: `https://raw.githubusercontent.com/loplat/llm-isms-p-policy-pack/main/CLAUDE.md`
+- Gemini CLI: `https://raw.githubusercontent.com/loplat/llm-isms-p-policy-pack/main/GEMINI.md`
 
 각 에이전트의 공식 로딩 방식은 로컬 지침 파일 기반입니다. 따라서 URL은 원본 배포 경로로 쓰고, 실제 자동 적용은 저장소 전체를 내려받아 로컬 지침 파일과 세부 정책 파일이 함께 존재하도록 구성합니다. 기존 사용자 지침 파일이 있다면 덮어쓰기 전에 병합하십시오.
 
 ```bash
-git clone https://github.com/hansonkim/llm-isms-p-policy-pack ~/.llm-isms-p-policy-pack
+git clone https://github.com/loplat/llm-isms-p-policy-pack ~/.llm-isms-p-policy-pack
 
 mkdir -p ~/.codex ~/.claude ~/.gemini
 cp ~/.llm-isms-p-policy-pack/AGENTS.md ~/.codex/AGENTS.md

@@ -1,0 +1,6 @@
+{
+  "name": "company-llm-isms-p-policy",
+  "version": "1.0.0",
+  "description": "Company LLM data handling and ISMS-P policy guidance",
+  "contextFileName": "GEMINI.md"
+}

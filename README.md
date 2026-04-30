@@ -68,6 +68,13 @@ cp AGENTS.md /path/to/your/repo/AGENTS.md
 cp -r .agents /path/to/your/repo/.agents
 ```
 
+Codex CLI에서 skill까지 전역 적용하려면 다음 경로도 사용합니다.
+
+```bash
+mkdir -p ~/.codex/skills
+cp -R .codex/skills/* ~/.codex/skills/
+```
+
 ### Claude Code
 
 Claude Code는 `CLAUDE.md`를 사용합니다. 이 패키지의 `CLAUDE.md`는 `AGENTS.md`를 import하도록 작성되어 있습니다.
@@ -116,7 +123,8 @@ LLM은 데이터를 받기 전에 다음을 먼저 판정해야 합니다.
 | `CLAUDE.md` | Claude Code용 어댑터 |
 | `GEMINI.md` | Gemini CLI용 어댑터 |
 | `.claude/skills/*/SKILL.md` | Claude Code skill |
-| `.agents/skills/*/SKILL.md` | Codex Agent Skill |
+| `.agents/skills/*/SKILL.md` | Codex Agent Skill 배포용 복사본 |
+| `.codex/skills/*/SKILL.md` | Codex CLI 전역 skill 설치용 복사본 |
 | `gemini-llm-policy-extension/` | Gemini CLI extension |
 | `llm-policy-pack/02-skills/` | 공통 skill 원문 |
 | `llm-policy-pack/04-templates/` | 검토/승인 템플릿 |

@@ -13,6 +13,7 @@
 - `llm-policy-pack/**`
 - `.claude/skills/**`
 - `.agents/skills/**`
+- `.codex/skills/**`
 - `gemini-llm-policy-extension/**`
 
 ## 기준

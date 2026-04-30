@@ -19,6 +19,8 @@ git clone https://github.com/hansonkim/llm-isms-p-policy-pack ~/.llm-isms-p-poli
 
 mkdir -p ~/.codex ~/.claude ~/.gemini
 cp ~/.llm-isms-p-policy-pack/AGENTS.md ~/.codex/AGENTS.md
+mkdir -p ~/.codex/skills
+cp -R ~/.llm-isms-p-policy-pack/.codex/skills/* ~/.codex/skills/
 cp ~/.llm-isms-p-policy-pack/AGENTS.md ~/.claude/AGENTS.md
 cp ~/.llm-isms-p-policy-pack/CLAUDE.md ~/.claude/CLAUDE.md
 cp ~/.llm-isms-p-policy-pack/AGENTS.md ~/.gemini/AGENTS.md
@@ -81,9 +83,11 @@ Claude Code에서 다음 명령 또는 요청으로 확인합니다.
 
 ```bash
 cp -r .agents <target-repo>/.agents
+mkdir -p ~/.codex/skills
+cp -R .codex/skills/* ~/.codex/skills/
 ```
 
-Codex는 기본적으로 `AGENTS.md`를 읽도록 구성합니다. 상세 스킬은 `.agents/skills`에 둡니다.
+Codex는 기본적으로 `AGENTS.md`를 읽도록 구성합니다. 현재 Codex CLI의 전역 skill 로딩 경로는 `~/.codex/skills`이므로, skill 동작까지 검증하려면 `.codex/skills`를 해당 경로에 복사하십시오. `.agents/skills`는 프로젝트/배포용 복사본으로 함께 제공합니다.
 
 ## 4. Gemini CLI 적용
 

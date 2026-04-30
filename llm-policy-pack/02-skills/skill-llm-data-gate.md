@@ -1,9 +1,9 @@
 ---
 owner: CISO/CPO
 review_cycle: quarterly
-last_reviewed: 2026-04-29
+last_reviewed: 2026-04-30
 status: draft
-source_reference: ISMS-P 인증기준 안내서(2023.11.23)
+source_reference: ISMS-P 인증기준 안내서(2023.11.23), ISMS-P 인증제도 안내서(2024.07), ISMS-P 인증제 실효성 강화방안(2026.4.10)
 ---
 
 # Skill: LLM Data Gate
@@ -93,4 +93,5 @@ source_reference: ISMS-P 인증기준 안내서(2023.11.23)
 - 필요한 조치:
 - 필요한 승인/증적:
 - 안전한 대안:
+- 책임 고지:
 ```
